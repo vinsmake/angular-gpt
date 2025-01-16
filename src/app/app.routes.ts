@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { DashboardLayoutComponent } from './presentation/layouts/dashboardLayout/dashboardLayout.component';
+import dashboardLayoutComponent from './presentation/layouts/dashboardLayout/dashboardLayout.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: DashboardLayoutComponent,
+    component: dashboardLayoutComponent,
     children: [
       {
         path: 'orthography',

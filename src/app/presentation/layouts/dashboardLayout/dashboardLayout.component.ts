@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 // import { CommonModule } from '@angular/common';
 
 
@@ -6,6 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-dashboard-layout',
   imports: [
     // CommonModule,
+    RouterModule
   ],
   templateUrl: './dashboardLayout.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
